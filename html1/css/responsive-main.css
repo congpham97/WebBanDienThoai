@@ -1,0 +1,36 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+.container{width: 30%;float: none;}
+#fixNav{
+  width: 100%;
+  height: 25px;
+  background-color: black;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0px; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+}
+#search{width: 20%;float: none}
+.navbar-left{width: 100%}
+#centermenu{width: 30%}
+.centermenu1{width: 230px}
+}
+/*Ipad dọc(768 x 1024)*/
+@media only screen and (max-width: 768px){
+.container{width: 100%;float: none;}
+#fixNav{width: 100%;float: none;padding-left: 0px;background-color: black}
+#leftmenu{width: 55%}
+.fixmenuleft ul{background-color: silver;width: 30%}
+.searchform{display: none}
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 480px){
+body{width: 100%}
+.container{width: 100%;float: none;}
+}

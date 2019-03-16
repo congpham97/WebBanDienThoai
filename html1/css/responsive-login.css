@@ -1,0 +1,145 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+.container{width: 100%;float: none;}
+.row{width: 100%;}
+.navbar-header{width: 100%;background-color: #1abc9c;width: 620px;}
+.footer{width: 100%; font-size: 10px;}
+.form-register form{margin:10px auto 0 auto;float: right;}
+.form-login{
+height: auto;
+margin-right: 0px;
+float: left;
+right: 0px;
+padding-bottom: 5px;
+}
+.form-login form {
+  box-sizing: border-box;
+  width: 280px;
+  height: 190px;
+  margin: 0px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 0px;
+  border-radius: 15px;
+  float : left;
+  border-style: solid;
+ margin:0px 0 0 10px;
+}
+.form-login input[type=text] {
+  width: 260px;
+  float: left;
+  border-radius: 10px;
+  margin:8px 0 0 5px;
+  color: black;
+}
+
+.form-login input[type=password]{
+  width: 260px;
+  float: left;
+  float: none;
+  border-radius: 10px;
+  margin:8px 0 0 5px;
+  color: black;
+}
+.form-login button{
+  color: white;
+   float: left;
+  background-color: #1abc9c;
+  border-radius: 10px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+}
+.nav > li{
+	position: none;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a{
+	width: 250px;
+	float: right;
+}
+.row{
+	background-color: none;
+}
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+     .container{width: 100%;float: none;}
+    #sidebar { width: 100%;float: none; padding-left: 0px;}
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 480px){
+body{width:100%}
+.container{width: 100%;float: none;}
+.row{width: 100%;}
+.navbar-header{background-color: #1abc9c;width: 450px}
+.footer{width: 100%; font-size: 10px;}
+.form-register form{margin:10px;}
+.form-login{
+height: auto;
+margin-right: 0px;
+float: left;
+right: 0px;
+padding-bottom: 5px;
+}
+.form-login form {
+  box-sizing: border-box;
+  width: 330px;
+  height: auto;
+  margin: 0px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 0px;
+  border-radius: 15px;
+  float : left;
+  border-style: solid;
+ margin:0px 0 0 10px;
+}
+.form-login input[type=text] {
+  width: 140px;
+  float: left;
+  border-radius: 10px;
+  margin:8px 0 0 5px;
+  color: black;
+}
+
+.form-login input[type=password]{
+  width: 150px;
+  float: left;
+  float: none;
+  border-radius: 10px;
+  margin:8px 5px 0 5px;
+  color: black;
+}
+.form-login button{
+  color: white;
+   float: left;
+  background-color: #1abc9c;
+  border-radius: 10px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin:5px 15px 5px 0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a{
+	width: 250px;
+	float: left;
+}
+.navbar-nav{
+  width: auto;
+}
+.navbar{
+  width: 350px;
+}
+.navbar-collapse{
+  height: auto;
+  width: 350px;
+}
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}

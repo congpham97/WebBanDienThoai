@@ -1,0 +1,104 @@
+body {
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  margin: 0px auto;
+  width: 559px;
+  /*padding: 0 60px 0 60px;*/
+  background: #ddd;
+  height: 60px;
+}
+
+.share {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 559px;
+  list-style: none;
+  /*padding-top: 50px;*/
+}
+
+.share li {
+  width: 186px;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+
+li.middle a {
+  left: 0;
+  height: 60px;
+  width: 90px;
+  position: absolute;
+  transition: all .4s ease-in-out 0s;
+
+}
+
+li.middle:hover {
+  li.middle
+}
+
+.share-icon {
+  background: #568;
+  position: relative;
+  z-index: 1;
+
+}
+
+a.facebook {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4264AA;
+}
+
+a.twitter {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-color: #6CB7F0;
+}
+
+.share li a {
+  color: #fff;
+  font-size: 30px;
+  width: 186px;
+}
+
+.top {
+  background: #4264AA;
+}
+
+.bottom {
+  background: #EA5154;
+}
+
+.middle span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 29%;
+  top: 22px;
+  font-size: 12px;
+  color: #ccc;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.share li:hover .facebook {
+  top : 60px;
+}
+
+.share li:hover .twitter {
+  top: 120px;
+}
+
+.share li:hover span {
+  opacity: 1;
+}

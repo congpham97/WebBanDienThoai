@@ -1,0 +1,302 @@
+body{
+	font-size:14px;
+	width: 1349px;
+	font-family:Tahoma, Geneva, sans-serif;
+	display:block;
+	}
+.navbar{
+	margin-bottom: 0px;
+	width: 1270px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #1abc9c;
+}
+.navbar-collapse a{
+	padding-bottom: 55px;
+}
+.mainbanner-effect ins{
+	float:right;
+	font-size: 55px;
+}
+.text-in-mainbanner{
+	float: right;
+
+}
+.text-in-mainbanner h3{
+}
+figure.mainbanner-effect figcaption  h1{
+	float: right;
+	color: #FFCC99;
+	left:0px;
+	font-size:30px;
+}
+figure.mainbanner-effect figcaption h3{
+	background-color: #A0522D;
+	float :right;
+	right:0px;
+	font-color: #FFFFFF;
+	margin-right:720px;
+	margin-left: 275px;
+	border-top: 2px outset ;
+	border-right: 2px outset ;
+	border-bottom: 2px inset ;
+	border-left: 2px inset ;
+}
+figure.mainbanner-effect figcaption {
+	text-align: right;
+}
+figure.mainbanner-effect figcaption > div {
+	position: absolute;
+	bottom: 15px;
+	left: 0px;
+	padding-right: 70px;
+	width: 100%;
+	height: 100%; <!--vị trí chữ trong hover ảnh kbd-->
+}
+.container{
+	width: 1320px;
+	height: 720px;
+}
+#carousel-id{
+	float:left;
+}
+.row{
+	height: 80px;
+	background-color: #607B8B;
+	margin-right: 7px;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color : #e8663c;
+}
+.navbar-nav > li > a{
+	padding-top: 25px;
+	padding-bottom: 10px;
+
+}
+.navbar-default{
+	border: none;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.pading-content{
+	padding:20px;
+}
+#Banner{
+	margin-top: 10px;
+	}
+
+.content-1 {
+	margin: 0 auto;
+	width: 1310px;
+}
+
+.content-1 > h2 {
+	clear: both;
+	margin: 0;
+	padding: 4em 1% 0;
+	color: #484B54;
+	font-weight: 350;
+	font-size: 1.5em;
+}
+
+.content-1 > h2:first-child {
+	padding-top: 0em;
+}
+.content-2 {
+	width: 1310px;
+}
+
+
+#Slide-show{
+	margin-top :0px;
+	float:left;
+	margin-bottom:155px;
+	margin-left:15px;
+	width:1290px;
+	height:620px;
+}
+.dot{
+  cursor:pointer;
+  height: 18px;
+  width: 18px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+ khi được hover, active đổi màu nền 
+.active, .dot:hover {
+  background-color: #717171;
+}
+/*-------------------------------------FORM LOGIN-----------------------------*/
+.form-login{
+  margin-right: 125px;
+  color: black;
+  float: left;
+  right: 55px;
+  padding-bottom: 5px;
+}
+.form-login form {
+  box-sizing: border-box;
+  width: 340px;
+  height: 85px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2px;
+  margin-top: 3px;
+  border-radius: 1px;
+  float : right;
+  border-style: solid 0px;
+  margin-right: 35px;
+  color: black;
+}
+.form-login input[type=text] {
+  color: black;
+}
+
+.form-login input[type=password]{
+  margin-top: 3px;
+  color: black;
+  margin-left: 12px;
+}
+.form-login button{
+  float: right;
+  margin-right: 5px;
+}
+/*.form-login button {
+  float: right;
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  top:25px;
+  width: 200px;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-login button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-login input {
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #8DEEEE;
+}
+.form-login input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+  color: white;
+}
+.form-login input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 12px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}*/
+ /*--------------------------------------------form đăng ký------------------------------------------*/
+.form-register form {
+  box-sizing: border-box;
+  width: 290px;
+  height: 430px;
+  margin: 100px auto 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2px;
+  border-radius: 3px;
+  float : right;
+  border-style: solid;
+  margin-right: 35px;
+  margin-top: 55px;
+}
+.form-register form h1 {
+  box-sizing: border-box;
+  padding: 30px;
+  font-size: 35px;
+  background-color: #1abc9c;
+}
+ 
+.form-register input {
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #8DEEEE;
+}
+.form-register input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+  color: white;
+}
+.form-register input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 12px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+ 
+.form-register button {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  margin-top: 20px;
+  top:25px;
+  width: 200px;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-register button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.form-register select{
+  width: 200px;
+  background-color: #1abc9c;
+}
+/*kết thúc form đăng nhập*/
+/*footer*/
+.footer{
+
+	background-color: white;
+	height: 68px;
+}
